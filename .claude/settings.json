@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "my-skills": {
+      "source": {
+        "source": "github",
+        "repo": "thalleslima8/my-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "workflow@my-skills": true
+  }
+}
