@@ -29,9 +29,10 @@ cd <Produto> && rm -rf .git && git init -b main
 git clone https://github.com/thalleslima8/ai-starter-kit.git /tmp/ai-base
 cp -r /tmp/ai-base/.claude ./.claude
 cp /tmp/ai-base/CLAUDE.md ./CLAUDE.md
-# preencher os placeholders do CLAUDE.md com as seções do
-# limaj-framework (ver comentário dentro do arquivo) e seguir o
-# rename Template→Produto documentado no README do limaj-framework
+# preencher os placeholders do CLAUDE.md (camadas e identidade vêm do
+# CLAUDE.md do limaj-framework; Segurança e Migrations são do produto —
+# ver comentário dentro do arquivo) e seguir o rename Template→Produto
+# documentado no README do limaj-framework
 ```
 
 ### Projeto novo em outra stack (sem limaj-framework)

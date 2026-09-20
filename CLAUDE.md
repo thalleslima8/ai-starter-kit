@@ -19,12 +19,12 @@ estado do épico:
 ```
 docs/epics/
 ├── backlog/         # planejado, ainda não iniciado
-├── em-andamento/    # em execução
-└── finalizados/     # concluído
+├── in-progress/     # em execução
+└── done/            # concluído
 ```
 
-- Um épico avança movendo o arquivo: `backlog/` → `em-andamento/` →
-  `finalizados/`.
+- Um épico avança movendo o arquivo: `backlog/` → `in-progress/` →
+  `done/`.
 - Tarefas são checkboxes: `- [ ]` pendente, `- [x]` concluída.
 - Todo épico tem o campo `Última revisão: YYYY-MM-DD`, atualizado sempre que
   o arquivo for alterado.
@@ -43,10 +43,12 @@ com mensagens em inglês.
 ## Stack e camadas específicas do projeto
 
 <!-- Se este projeto usa o limaj-framework como base (.NET/Azure
-Functions), cole aqui as seções de Segurança, Migrations e Camadas
-do CLAUDE.md do limaj-framework (ownership/BOLA via
-IUserIdentityGateway, dotnet ef database update, tabela
-Abstractions→Application/Persistence.EFCore/Functions). Se este
-projeto usa outra linguagem/stack, descreva a stack real aqui em
+Functions), cole aqui o que o CLAUDE.md do limaj-framework documenta:
+a tabela de camadas (Abstractions → Application / Persistence.EFCore /
+Web) e a regra de identidade via IUserIdentityGateway (seções
+"Architecture: package layering" e "Core patterns to reuse"). Segurança
+(ownership/BOLA) e Migrations (dotnet ef database update) NÃO estão
+documentadas no limaj-framework — escreva-as aqui, no próprio produto.
+Se este projeto usa outra linguagem/stack, descreva a stack real aqui em
 vez disso — este arquivo não deve depender do limaj-framework por
 padrão. -->
